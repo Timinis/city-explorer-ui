@@ -1,0 +1,38 @@
+body {
+  background-color: lightgrey;
+  h1 {
+    color: Blue;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 58px;
+  }
+  p {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+  }
+  img {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h2 {
+    text-align: center;
+  }
+  article {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    section {
+      background-color: white;
+      border: black 1px solid;
+      text-align: center;
+      div {
+        border: black 1px solid;
+      }
+    }
+  }
+}
